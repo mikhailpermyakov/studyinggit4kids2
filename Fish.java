@@ -21,4 +21,7 @@ public class Fish extends Pet implements Swimmable, Talkable {
     public void talk() {
 
     }
+	public void surface(){
+		System.out.println("Going up " + currentDepth + " feet.");
+	}
 }
